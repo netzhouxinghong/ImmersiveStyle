@@ -1,0 +1,21 @@
+<idea-plugin>
+    <id>com.xhz.ImmersiveStyle</id>
+    <name>ImmersiveStyle</name>
+    <version>0.0.1</version>
+    <vendor email="net_zhouxinghong@outlook.com" url="http://www.xhz.com">XHZ</vendor>
+
+    <description>
+        Immersive environments focus on coding...
+    </description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <themeProvider id="4679615e-fb03-4df2-8e4a-d4b5e3f2dda4" path="/ImmersiveStyleBlue.theme.json"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>
